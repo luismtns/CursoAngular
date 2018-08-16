@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentComponent implements OnInit {
 
+  name: string = 'Luke'
+  isJedi: boolean = true
+
   constructor() { }
 
   ngOnInit() {
